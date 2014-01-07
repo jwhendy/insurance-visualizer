@@ -6,7 +6,7 @@ This repo stores the code and files necessary to reproduce the R/Shiny web app l
 - [R](http://www.r-project.org/)
 - [RStudio](http://www.rstudio.com/)
 - [The shiny package](http://cran.r-project.org/web/packages/shiny/index.html)
-- The other packages used in `server.R` (namely, `ggplot2`, `markdown`, and `plyr`)
+- The other packages used in `server.R` (namely, `ggplot2`, `markdown`, `plyr`, and `reshape2`)
 
 I make no promises on the elegance of the code! I've been using R for about 2 years, but primarily for relatively simple data manipulation, analysis, and plots at work. This is certainly my biggest project completed to-date and the skills above and beyond my day job requirements are developed purely in hobby time!
 

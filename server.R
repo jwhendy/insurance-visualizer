@@ -292,6 +292,9 @@ shinyServer(function(input, output) {
         
         plot <- ddply(plot, .(plan), mutate,
                       prem_cum = cumsum(prem/12))
+
+        plot <- plot[order(plot$plan, decreasing = T), ]
+        
         plot$hsa_cum <- hsa_cum
         plot$delta <- plot$cost - plot$hsa_cum
         
@@ -366,6 +369,9 @@ shinyServer(function(input, output) {
         
         plot <- ddply(plot, .(plan), mutate,
                       prem_cum = cumsum(prem/12))
+
+        plot <- plot[order(plot$plan, decreasing = T), ]
+        
         plot$hsa_cum <- hsa_cum
         plot$delta <- plot$cost - plot$hsa_cum
         
