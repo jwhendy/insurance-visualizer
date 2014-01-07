@@ -2,7 +2,6 @@ library(shiny)
 library(ggplot2)
 library(markdown)
 library(plyr)
-library(reshape2)
 
 load("./plans.rda")
 

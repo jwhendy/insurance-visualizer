@@ -14,7 +14,7 @@ shinyUI(pageWithSidebar(
                      "Employee and child" = "emp_child", "Employee and family" = "emp_fam")),
     
     HTML("<br><br><i>Note:</i> HSA/HCRA contribution limits are $3,300 for employee only,",
-         "and $6,550 for families. This is the <b>total</b>, which includes the $600/$1,200",
+         "and $6,550 for families. This is the <b>total</b>, which includes the $625/$1,250",
          "company contribution received by plans B and C<br><br>"),
     sliderInput(inputId = "hsa", label = "Enter your elective HSA/HCRA contribution:",
                 min = 0, max = 5000, value = 0, step = 100),
