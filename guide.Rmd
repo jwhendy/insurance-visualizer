@@ -5,6 +5,8 @@ For the past three years, I've been conducting insurance plan analyses as a hobb
 
 For 2011 and 2012, I created a deck of slides and an accompanying screencast, which I made available on internal company blogs. In 2012, I was already thinking interactive visualization and made an attempt using the [`playwith` package](http://cran.r-project.org/web/packages/playwith/index.html). Unfortunately, `playwith` plots are not available to others unless the run the actual R code. When I discovered `shiny` about a year ago, I knew this year's analysis would be an interactive one!
 
+If you want to modify this to work with your insurance plans, or just take a look at the code and fiddle around, it's available on [github](https://github.com/jwhendy/insurance-visualizer).
+
 Plan details and assumptions
 -----
 
